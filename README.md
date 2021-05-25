@@ -32,6 +32,8 @@ In Deliverable 1, you’ll use Pandas to change the datatype of the "tripduratio
 
 Once you change the datatype, you’ll export the DataFrame as a CSV file to use for the visualizations in Deliverable 2. If you export the new CSV file into the same Tableau workbook you used in this module, the "Average Trip Duration" and "Bike Utilization" graphs will be greyed out, and you won’t be able to use them because the datatype for the "tripduration" column has changed. Therefore, we recommend creating a new Tableau workbook to create the visualizations in Deliverable 2, and then you’ll have to recreate the two visualizations from the module in this new Tableau workbook that you’ll use for the Story in Deliverable 3. If you'd like to use the "Bike Utilization" graph in your Story for Deliverable 3, then we suggest creating a new column that contains the converted datatype of the "tripduration" column in Deliverable 1.
 
+! https://github.com/Dybondzy/bikesharing/blob/main/NYC_CitiBike_Challenge.ipynb
+
 Deliverable 1: Change Trip Duration to a Datetime Format (20 points)
 Deliverable 1 Instructions
 Using Python and Pandas functions, you’ll convert the "tripduration" column from an integer to a datetime datatype to get the time in hours, minutes, and seconds (00:00:00). After you convert the "tripduration" column to a datetime dataytpe, you’ll export the DataFrame as a CSV file to use for the trip analysis in Deliverable 2.
@@ -44,10 +46,8 @@ In Step 1, create a DataFrame from the 201908-citibike-tripdata.csv file.
 In Step 2, check the datatypes of each column in the DataFrame.
 In Step 3, convert the "tripduration" column to a datetime datatype by passing the DataFrame column and the units inside the to_datetime() function.
 If you’d like a hint on how to convert an integer datatype to a datetime datatype, that’s totally okay. If not, that’s great too. You can always revisit this later if you change your mind.
+! https://github.com/Dybondzy/bikesharing/blob/main/NYC_CitiBike_Challenge.ipynb
 
-HINT
-NOTE
-You can create a new column that contains the conversion if you don't want to change the "tripduration" column to a datetime datatype.
 
 In Step 4, check the datatypes of the DataFrame.
 Confirm that the converted values in the "tripduration" column match the following image:
