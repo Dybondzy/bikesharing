@@ -65,6 +65,8 @@ The DataFrame is exported as a new file without the index column (5 pt)
 Deliverable 2: Create Visualizations for the Trip Analysis (50 points)
 Deliverable 2 Instructions
 Using Tableau, create visualizations that show:
+[link to dashboard](LINK GOES HERE)
+[link to dashboard](LINK GOES HERE "link to dashboard")
 
 How long bikes are checked out for all riders and genders.
 How many trips are taken by the hour for each day of the week, for all riders and genders.
